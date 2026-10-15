@@ -105,5 +105,4 @@ The screenshots used in the presentation were captured from the local Tomcat dep
 | Manager | [Dashboard](docs/manager-dashboard.png), [Goals](docs/manager-goals.png), [Reviews](docs/manager-reviews.png) |
 | Employee | [Dashboard](docs/employee-dashboard.png), [Goals](docs/employee-goals.png), [Notifications](docs/employee-notifications.png) |
 
-To regenerate the presentation after capturing new screenshots:
 
