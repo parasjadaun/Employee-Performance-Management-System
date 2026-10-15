@@ -107,8 +107,3 @@ The screenshots used in the presentation were captured from the local Tomcat dep
 
 To regenerate the presentation after capturing new screenshots:
 
-```bash
-npm install --no-save pptxgenjs
-node scripts/create-presentation.js
-```
-
