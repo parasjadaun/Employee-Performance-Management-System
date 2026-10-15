@@ -1,0 +1,7 @@
+flowchart LR
+  Browser --> AuthFilter --> Servlet
+  Servlet --> Service
+  Service --> DAO
+  DAO --> PostgreSQL
+  Servlet --> JSP
+  Scheduler --> SummaryCache

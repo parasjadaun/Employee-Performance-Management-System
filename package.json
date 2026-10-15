@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "@neon/config": "^1.9.1",
+    "@neon/env": "^1.6.2"
+  }
+}

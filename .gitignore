@@ -1,0 +1,10 @@
+target/
+.idea/
+.vscode/
+*.class
+.env
+.env.local
+*.iml
+.neon
+.env.local
+node_modules/

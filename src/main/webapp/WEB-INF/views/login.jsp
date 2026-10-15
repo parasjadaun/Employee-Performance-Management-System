@@ -1,0 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" %><%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!doctype html><html><head><title>EPMS Login</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"><link href="${pageContext.request.contextPath}/assets/app.css" rel="stylesheet"></head>
+<body class="login-page d-flex align-items-center"><main class="container py-5"><div class="row justify-content-center"><div class="col-12 d-flex justify-content-center"><div class="card login-card"><div class="card-body p-4 p-md-5 text-center">
+<span class="brand-mark mb-3"><i class="bi bi-graph-up-arrow"></i></span><h1 class="h3 mb-2">Employee Performance</h1><p class="text-secondary mb-4">Manage goals, reviews, and growth in one place.</p>
+<c:if test="${not empty error}"><div class="alert alert-danger"><c:out value="${error}"/></div></c:if>
+<form method="post" class="text-start"><label class="form-label" for="email">Email address</label><div class="input-group mb-3"><span class="input-group-text"><i class="bi bi-envelope"></i></span><input id="email" class="form-control" type="email" name="email" required></div>
+<label class="form-label" for="password">Password</label><div class="input-group mb-4"><span class="input-group-text"><i class="bi bi-lock"></i></span><input id="password" class="form-control" type="password" name="password" required></div><button class="btn btn-primary w-100"><i class="bi bi-box-arrow-in-right"></i>Sign in</button></form>
+</div></div></div></div></main></body></html>
